@@ -1,0 +1,22 @@
+[
+    {
+        "question": "Q: How do I become a Member?",
+        "answer": "Membership is...",
+        "collapse": "collapseOne"
+    },
+    {
+        "question": "Q: Whom should I contact in regards to Membership issues or questions?",
+        "answer": "Please email...",
+        "collapse": "collapseTwo"
+    },
+    {
+        "question": "Q: How will I receive my dues statement?",
+        "answer": "Dues statements will be automatically forwarded to the email address on file.",
+        "collapse": "collapseThree"
+    },
+    {
+        "question": "Q: How do I update my Member profile?",
+        "answer": "Click the 'Login Now' link at the top-right hand corner of this page.",
+        "collapse": "collapseFour"
+    }
+]

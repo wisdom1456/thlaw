@@ -1,0 +1,38 @@
+[
+    {
+        "name": "DC Matthews",
+        "title": "President",
+        "shortDesc": "Matthews & Jones - Attorneys at Law",
+        "lawfirmLink": "https://destinlaw.com/",
+        "email": "dcmatthews@destinlaw.com",
+        "phoneNumber": "850.837.3662 ",
+        "imageLink": "/assets/images/board/dcmatthews.png"
+    },
+    {
+        "name": "Jack Schlechter",
+        "title": "Vice President",
+        "shortDesc": "AnchorsGordon",
+        "lawfirmLink": "https://anchorsgordon.com/attorneys/jack-schlechter/",
+        "email": "jschlechter@anchorsgordon.com",
+        "phoneNumber": "850.863.1974",
+        "imageLink": "/assets/images/board/jack.png"
+    },
+    {
+        "name": "John Libby",
+        "title": "Secretary",
+        "shortDesc": "AnchorsGordon",
+        "lawfirmLink": "https://anchorsgordon.com/attorneys/john-libby/",
+        "email": "jlibby@anchorsgordon.com",
+        "phoneNumber": "850.863.1974",
+        "imageLink": "/assets/images/board/john.png"
+    },
+    {
+        "name": "John Madden",
+        "title": "Treasurer",
+        "shortDesc": "Campbell & Madden, PLLC",
+        "lawfirmLink": "https://www.jamescampbelllaw.com/attorney/madden-john-allen-jr/",
+        "email": "cindy@campbellandmadden.com",
+        "phoneNumber": "888.646.1535",
+        "imageLink": "/assets/images/board/johnmadden.png"
+    }
+]
