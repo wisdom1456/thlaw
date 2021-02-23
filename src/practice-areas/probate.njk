@@ -1,0 +1,33 @@
+---
+layout: "practice-areas-include.njk"
+title: Probate
+excerpt: "Representing your interests"
+author:  "modible.com"
+ogtype:  "website"
+pageImage: /assets/images/background/subheader3.jpg
+---
+
+{%for pArea in practiceAreas%}
+    {%if pArea.title == "Probate"%}
+        <div class="col-md-8">
+            <div class="blog-read">
+                <img alt="" src="{{pArea.image}}" class="img-fullwidth">
+                <div class="post-text" id="posttext">
+                    <p> Probate is the legal process by which a person’s assets are distributed after death. If a person dies with a valid will, the estate is considered testate, and a personal representative (executor) is named to attend to the resolution of the estate. If a person dies without a will (intestate), the Court will appoint a personal representative in accordance with the statute. Regardless of whether or not a will is involved, the assets of the deceased must be determined and any debts against them settled. This can be a complicated process when there is a paucity of records and information left by the decedent or when there are competing claims on the part of creditors. Tonya Holman will represent an estate’s executor, as well as family members interested in contesting a will. We understand the financial and legal issues involved and can often save clients time and money in settling an estate through probate. </p>
+                    <h2>Estate Planning and Probate Administration</h2>
+                    <p> Our firm can advise the personal representative and provide probate services throughout all steps of the probate process, including: </p>
+                    <ul class="arrow">
+                        <li>Filing a petition to name a personal representative</li>
+                        <li>Marshalling and valuing the assets and debts of the estate</li>
+                        <li> Notifying creditors and other interested parties of the probate action </li>
+                        <li> Counseling personal representatives on the actions they must take to fulfill their fiduciary duty </li>
+                        <li>Payment of outstanding debts and tax obligations</li>
+                        <li> Distribution of the remaining estate assets according to the wishes of the decedent </li>
+                        <li>Applying for federal tax ID number for an estate or trust</li>
+                        <li> Wrapping up the estate and filing all necessary papers with the Court </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    {% endif %}
+{% endfor %}

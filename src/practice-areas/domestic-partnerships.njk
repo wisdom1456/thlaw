@@ -1,0 +1,21 @@
+---
+layout: "practice-areas-include.njk"
+title: Domestic Partnerships
+excerpt: "Representing your union"
+author:  "modible.com"
+ogtype:  "website"
+pageImage: /assets/images/background/subheader3.jpg
+---
+
+{%for pArea in practiceAreas%}
+    {%if pArea.title == "Domestic Partnerships"%}
+        <div class="col-md-8">
+            <div class="blog-read">
+                <img alt="" src="{{pArea.image}}" class="img-fullwidth">
+                <div class="post-text" id="posttext">
+                    <p>A landmark U.S. Supreme Court ruling in 2013 upheld a fundamental right to marry and triggered the federal government to grant rights and benefits to gay and lesbian partners. And in 2015, the Supreme Court ruled that same-sex couples throughout the United States must be afforded the same constitutional right to marry that traditional couples have always enjoyed. As a result same sex couples in Florida are now legally permitted to marry, and gay marriages from other states or countries are now recognized in Florida. </p>
+                </div>
+            </div>
+        </div>
+    {% endif %}
+{% endfor %}

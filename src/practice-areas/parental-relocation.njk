@@ -1,0 +1,22 @@
+---
+layout: "practice-areas-include.njk"
+title: Parental Relocation
+excerpt: "Managing your transition"
+author:  "modible.com"
+ogtype:  "website"
+pageImage: /assets/images/background/subheader3.jpg
+---
+
+{%for pArea in practiceAreas%}
+    {%if pArea.title == "Parental Relocation"%}
+        <div class="col-md-8">
+            <div class="blog-read">
+                <img alt="" src="{{pArea.image}}" class="img-fullwidth">
+                <div class="post-text" id="posttext">
+                    <p> A parent may be prohibited from relocating a child’s residence more than 50 miles from their current residence if certain conditions apply. Parents who wish to relocate outside of the permissible radius (50 miles) and who do not have the written consent of the other parent, must file a petition for relocation and comply with the statutory requirements prior to obtaining a court order allowing said relocation. </p>
+                    <p> For additional information about parental relocation of children in the aftermath of divorce, or if you need specific advice about a proposed move, contact Tonya Holman, your family law attorney </p>
+                </div>
+            </div>
+        </div>
+    {% endif %}
+{% endfor %}

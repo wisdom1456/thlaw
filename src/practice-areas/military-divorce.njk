@@ -1,0 +1,23 @@
+---
+layout: "practice-areas-include.njk"
+title: Military Divorce
+excerpt: "Dedicated to you"
+author:  "modible.com"
+ogtype:  "website"
+pageImage: /assets/images/background/subheader3.jpg
+---
+
+{%for pArea in practiceAreas%}
+    {%if pArea.title == "Military Divorce"%}
+        <div class="col-md-8">
+            <div class="blog-read">
+                <img alt="" src="{{pArea.image}}" class="img-fullwidth">
+                <div class="post-text" id="posttext">
+                    <p>Unfortunately, the stresses of a military marriage far outweigh a civilian marriage, and in many cases the pressures and circumstances lead to a divorce. When this is the only option left, it is important that you have legal representation that understands the rules regarding military divorce. Many of the same issues exist in a civilian divorce, such as child custody and visitation, division of assets and debts, and alimony. </p>
+                    <p> These, however, can increase greatly in severity when dealing with the circumstances that surround military personnel. Military divorces are not simple – no matter when considering the people in question or whether you are dealing with the geographical location, it can be complex to try and wade through all of the nuances that surround these divorce cases in particular. </p>
+                    <p> As a military spouse for 24 years, Tonya has a deep understanding of the issues that may and will arise with dealing with military family law issues. Tonya understands the complex issues pertaining to relocation, visitation during deployments, and family care packages. Tonya strongly believes in zealous advocacy for those who wear the uniform, spouses and children that support them. </p>
+                </div>
+            </div>
+        </div>
+    {% endif %}
+{% endfor %}

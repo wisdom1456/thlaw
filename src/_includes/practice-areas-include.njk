@@ -1,0 +1,29 @@
+{% include "partials/header.njk" %}
+<div class="no-bottom no-top" id="content">
+    <div id="top"></div>
+    {% include 'partials/breadcrumbs.njk' %}
+    <!-- section begin -->
+    <section aria-label="section">
+        <div class="container">
+            <div class="row">
+                <!-- content close -->
+                {{ content | safe}}
+                <div id="sidebar" class="col-md-4">
+                    <div class="widget widget-post">
+                        <h4>Practice Areas</h4>
+                        <div class="small-border"></div>
+                        <ul>
+                            {% for pArea in  practiceAreas%}
+                                <li>
+                                    <span class="date"><i class="{{pArea.icon}}"></i></span>
+                                    <a href="{{pArea.link}}">{{pArea.title}}</a>
+                                </li>
+                            {% endfor %}
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</div>
+{% include "partials/footer.njk" %}

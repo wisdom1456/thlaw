@@ -1,0 +1,21 @@
+---
+layout: "practice-areas-include.njk"
+title: Injunctions
+excerpt: "Security for your piece of mind"
+author:  "modible.com"
+ogtype:  "website"
+pageImage: /assets/images/background/subheader3.jpg
+---
+
+{%for pArea in practiceAreas%}
+    {%if pArea.title == "Injunctions"%}
+        <div class="col-md-8">
+            <div class="blog-read">
+                <img alt="" src="{{pArea.image}}" class="img-fullwidth">
+                <div class="post-text" id="posttext">
+                    <p>The state of Florida has laws regarding obtaining and enforcing injunctions. An injunction is a court order in which a person is restrained from performing certain acts as detailed in the injunction. Those wishing to obtain an injunction must file an action with the court. Granting the injunction is up to the discretion of the court. </p>
+                </div>
+            </div>
+        </div>
+    {% endif %}
+{% endfor %}

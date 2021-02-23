@@ -1,0 +1,21 @@
+---
+layout: "practice-areas-include.njk"
+title: Modification of Prior Orders
+excerpt: "Your legal expert"
+author:  "modible.com"
+ogtype:  "website"
+pageImage: /assets/images/background/subheader3.jpg
+---
+
+{%for pArea in practiceAreas%}
+    {%if pArea.title == "Modification of Prior Orders"%}
+        <div class="col-md-8">
+            <div class="blog-read">
+                <img alt="" src="{{pArea.image}}" class="img-fullwidth">
+                <div class="post-text" id="posttext">
+                    <p>When an order for child custody, child support, or spousal support is first created, the goal is to set up an arrangement that meets the needs of those involved and that will work for everyone. However, no custody or support order can predict the future. Lives change frequently as jobs are found or lost, people move across town or across the country, and other events unexpectedly alter lives. </p> <p> If there has been a substantial change in circumstances, Courts may modify prior orders. If you need a modification in a custody or support order, contact Tonya Holman at 850-609-3100. </p>
+</div>
+            </div>
+        </div>
+    {% endif %}
+{% endfor %}

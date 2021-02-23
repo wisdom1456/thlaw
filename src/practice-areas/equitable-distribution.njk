@@ -1,0 +1,21 @@
+---
+layout: "practice-areas-include.njk"
+title: Equitable Distribution
+excerpt: "Helping to divide your assets"
+author:  "modible.com"
+ogtype:  "website"
+pageImage: /assets/images/background/subheader3.jpg
+---
+
+{%for pArea in practiceAreas%}
+    {%if pArea.title == "Equitable Distribution"%}
+        <div class="col-md-8">
+            <div class="blog-read">
+                <img alt="" src="{{pArea.image}}" class="img-fullwidth">
+                <div class="post-text" id="posttext">
+                    <p>Equitable Distribution is the legal term for dividing marital assets and debts. When married couples separate, often the most difficult questions include determining who should pay the mortgage, who gets the house, or who should pay the credit cards. There is a presumption, albeit rebuttable, that all marital assets and debts should be divided equally between husband and wife. However, there are certain statutory factors which may or may not affect your distribution. Based on your circumstances and how those distributional factors weigh in your favor, you may be entitled to receive more or less than half of your marital estate. </p>
+                </div>
+            </div>
+        </div>
+    {% endif %}
+{% endfor %}

@@ -1,0 +1,22 @@
+---
+layout: "practice-areas-include.njk"
+title: Alimony and Spousal Support
+excerpt: "Expertise in spousal support"
+author:  "modible.com"
+ogtype:  "website"
+pageImage: /assets/images/background/subheader3.jpg
+---
+
+{%for pArea in practiceAreas%}
+    {%if pArea.title == "Alimony and Spousal Support"%}
+        <div class="col-md-8">
+            <div class="blog-read">
+                <img alt="" src="{{pArea.image}}" class="img-fullwidth">
+                <div class="post-text" id="posttext">
+                    <p>Each type of alimony serves a different purpose. It is important to understand that many factors influence whether alimony will be awarded by the Court. A spouse has a right to receive support from the other so long as the receiving spouse has the need and the other spouse has the financial ability to contribute.</p>
+                    <p>An award of alimony in Florida, if any, is decided by the Court considering Section 61.08 of the Florida Statutes. The court also considers case law from the Florida Supreme Court and Florida District Courts of Appeal in deciding entitlement to alimony in Florida. Please feel free to contact me to discuss your questions about alimony in Florida. (Alimony is also referred to as “spousal support”.)</p>
+                </div>
+            </div>
+        </div>
+    {% endif %}
+{% endfor %}

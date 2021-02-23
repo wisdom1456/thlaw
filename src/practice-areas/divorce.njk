@@ -1,0 +1,21 @@
+---
+layout: "practice-areas-include.njk"
+title: Divorce
+excerpt: "We're here for you"
+author:  "modible.com"
+ogtype:  "website"
+pageImage: /assets/images/background/subheader3.jpg
+---
+
+{%for pArea in practiceAreas%}
+    {%if pArea.title == "Divorce"%}
+        <div class="col-md-8">
+            <div class="blog-read">
+                <img alt="" src="{{pArea.image}}" class="img-fullwidth">
+                <div class="post-text" id="posttext">
+                    <p>Consumer Bankruptcy can be a difficult process to navigate alone. A personal bankruptcy can help qualified individuals receive a fresh start and rid themselves of unwanted debt. An experienced Florida Bankruptcy Lawyer can help guide you through the process. Our mission is to provide outstanding services, help our clients discharge their unwanted and unaffordable debts, and obtain the fresh start they deserve.</p>
+                </div>
+            </div>
+        </div>
+    {% endif %}
+{% endfor %}

@@ -1,0 +1,28 @@
+---
+layout: "practice-areas-include.njk"
+title: Wills and Trusts
+excerpt: "Designing your future"
+author:  "modible.com"
+ogtype:  "website"
+pageImage: /assets/images/background/subheader3.jpg
+---
+
+{%for pArea in practiceAreas%}
+    {%if pArea.title == "Wills and Trusts"%}
+        <div class="col-md-8">
+            <div class="blog-read">
+                <img alt="" src="{{pArea.image}}" class="img-fullwidth">
+                <div class="post-text" id="posttext">
+                    <p> In Florida, if you die without a will, your property will be distributed according to state “intestacy” laws. Florida’s intestacy law gives your property to your closest relatives, beginning with your spouse and children. If you have neither a spouse nor children, your grandchildren or your parents will get your property. This list continues with increasingly distant relatives, including siblings, grandparents, aunts and uncles, cousins, and your spouse’s relatives. If the court exhausts this list to find that you have no living relatives by blood or marriage, the state will take your property. </p>
+                    <p> A will, also called a “last will and testament,” can help you protect your family and your property. You can use a will to: </p>
+                    <ul class="arrow">
+                        <li>leave your property to people or organizations</li>
+                        <li>name a personal guardian to care for your minor children</li>
+                        <li> name a trusted person to manage property you leave to minor children </li>
+                        <li> name a personal representative, the person who makes sure that the terms of your will are carried out. </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    {% endif %}
+{% endfor %}

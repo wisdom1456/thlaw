@@ -24,7 +24,7 @@
         <link href="/assets/css/jquery.countdown.css" rel="stylesheet" type="text/css"/>
         <link href="/assets/css/style.css" rel="stylesheet" type="text/css"/>
         <!-- color scheme -->
-        <link id="colors" href="/assets/css/colors/scheme-01.css" rel="stylesheet" type="text/css"/>
+        <link id="colors" href="/assets/css/colors/scheme-06.css" rel="stylesheet" type="text/css"/>
         <link href="/assets/css/coloring.css" rel="stylesheet" type="text/css"/>
         <!-- RS5.0 Stylesheet -->
         <link rel="stylesheet" href="/assets/revolution/css/settings.css" type="text/css">
@@ -86,8 +86,8 @@
                                     <!-- logo begin -->
                                     <div id="logo">
                                         <a href="index.html">
-                                            <img alt="" class="logo lazyimages" src="/assets/images/logo-light.png"/>
-                                            <img alt="" class="logo-2 lazyimages" src="/assets/images/logo.png"/>
+                                            <img alt="" class="logo lazyimages" src="/assets/images/logoMain-light.png"/>
+                                            <img alt="" class="logo-2 lazyimages" src="/assets/images/logoMain.png"/>
                                         </a>
                                     </div>
                                     <!-- logo close -->
@@ -104,12 +104,11 @@
                                         <li>
                                             <a href="/practice-areas">Practice Areas</a>
                                             <ul>
+                                            {%for pArea in practiceAreas %}
                                                 <li>
-                                                    <a href="practice-areas.html">Practice Areas 1</a>
+                                                    <a href="{{pArea.link}}">{{pArea.shortName}}</a>
                                                 </li>
-                                                <li>
-                                                    <a href="practice-areas-2.html">Practice Areas 2</a>
-                                                </li>
+                                                {% endfor%}
                                             </ul>
                                         </li>
                                         <li>
